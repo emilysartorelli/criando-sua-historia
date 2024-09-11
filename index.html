@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title> O Mistério do Cristal de Luz</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você encontra um antigo cristal em um mercado de antiguidades. O vendedor conta que ele é a chave para um grande mistério escondido em uma caverna nas Montanhas Nebulosas.            </p>
+            <button class="btn-proximo" data-proximo="1">Decidir ir imediatamente às Montanhas Nebulosas</button>
+            <button class="btn-proximo" data-proximo="2">Investigar mais sobre o cristal antes de partir.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Se você decidiu ir às Montanhas Nebulosas: Você se prepara e parte para a jornada. Após dias de viagem, chega à base das montanhas e encontra duas trilhas: uma que leva diretamente à caverna e outra que contorna uma vila misteriosa.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir a trilha direta para a caverna.</button>
+            <button class="btn-proximo" data-proximo="4"> Explorar a vila misteriosa antes de continuar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Se você seguiu a trilha direta: Você chega à entrada da caverna, que está trancada por uma grande pedra. A pedra tem uma inscrição em uma língua antiga.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Se você seguiu a trilha direta: Você chega à entrada da caverna, que está trancada por uma grande pedra. A pedra tem uma inscrição em uma língua antiga.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar decifrar a inscrição</button>
+            <button class="btn-proximo" data-proximo="8"> Procurar uma maneira de mover a pedra.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>você decidiu decifrar a inscrição</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Se você decidiu decifrar a inscrição: Você resolve o enigma e a pedra se move, revelando uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="9"> Entrar pela passagem secreta.</button>
+            <button class="btn-proximo" data-proximo="10"> Investigar mais ao redor da entrada da caverna.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Se você procurou uma maneira de mover a pedra: Após algum esforço, você consegue empurrar a pedra para o lado, revelando a entrada da caverna, mas com um aviso de um sistema de armadilhas.                .</p>
+            <button class="btn-proximo" data-proximo="11"> Desativar as armadilhas antes de entrar</button>
+            <button class="btn-proximo" data-proximo="12"> Entrar na caverna com cautela.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Se você aceitou o favor e obteve o mapa: O mapa revela uma rota segura e os perigos da caverna. No entanto, você também deve enfrentar um enigma apresentado pelo morador da vila.                .</p>
+            <button class="btn-proximo" data-proximo="13">Resolver o enigma para garantir a segurança.</button>
+            <button class="btn-proximo" data-proximo="13">Ignorar o enigma e seguir a rota indicada no mapa.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Se você recusou o favor e continuou sem o mapa: A caverna é um labirinto de túneis e corredores. Você se depara com duas portas: uma com símbolos antigos e outra com uma chave visível.            </p>
+            <button class="btn-proximo" data-proximo="14">Tentar abrir a porta com os símbolos antigos</button>
+            <button class="btn-proximo" data-proximo="15">Pegar a chave e usar na outra porta.       </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Se você entrou pela passagem secreta: O caminho leva a uma sala com um pedestal e um livro antigo. O livro contém pistas sobre como encontrar o Cristal de Luz.</p>
+            <button class="btn-proximo" data-proximo="16">: Ler o livro e seguir as instruções</button>
+            <button class="btn-proximo" data-proximo="17">Continuar explorando a sala sem ler o livro.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Se você desativou as armadilhas antes de entrar: Você entra com segurança na caverna e encontra uma sala com o Cristal de Luz em um altar central..</p>
+            <button class="btn-proximo" data-proximo="18">Pegar o Cristal de Luz.</button>
+            <button class="btn-proximo" data-proximo="19"> Investigar a sala ao redor do altar.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>você decidiu pegar o cristal</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Se você entrou na caverna com cautela: Apesar de encontrar o Cristal de Luz, você esbarra em uma armadilha e precisa encontrar uma saída rapidamente.</p>
+            <button class="btn-proximo" data-proximo="20">Usar o Cristal de Luz para desativar a armadilha</button>
+            <button class="btn-proximo" data-proximo="21">Tentar encontrar uma saída alternativa.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
